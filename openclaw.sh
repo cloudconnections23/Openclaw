@@ -12,18 +12,30 @@ sudo systemctl enable --now ollama
 
 echo "[3/4] Pulling Qwen Model..."
 # Pulling the 7B version (most stable for VMs)
-ollama pull qwen2.5:7b
+ollama pull qwen3.5:9b
 
 echo "[4/4] Installing OpenClaw..."
 # Official Linux install script
 curl -fsSL https://openclaw.ai/install.sh | bash
 
-echo ""
-echo "⭐ INSTALLATION COMPLETE ⭐"
-echo "------------------------------------------------"
-echo "STEP 1: Run 'openclaw setup' (Choose 'local' and use http://localhost:11434)"
-echo "STEP 2: Run 'openclaw gateway start --host 0.0.0.0'"
-echo "------------------------------------------------"
-
 # Automatically trigger the setup for you
 openclaw setup 
+
+# Automatically launch openclaw using ollama
+ollama launch openclaw
+
+echo "double click on the link that looks like 
+       http://localhost:18789/#token=s98sdujf98jsd9fmsapojdgfposdg9 '"
+
+echo "You should be looking at the gateway portal to login'"   
+echo ""
+echo ""
+echo "⭐ INSTALLATION COMPLETE⭐"
+echo " Things to try if it didn't work: '"
+echo "------------------------------------------------"
+echo "1. Run 'openclaw setup'"
+echo "2. Run 'ollama launch openclaw'"
+echo "3. Then double click on the link that looks something like 
+       http://localhost:18789/#token=s98sdujf98jsd9fmsapojdgfposdg9
+       to login to the web gateway'" 
+echo "------------------------------------------------"
