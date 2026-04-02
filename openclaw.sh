@@ -12,7 +12,7 @@ sudo systemctl enable --now ollama
 
 echo "[3/4] Pulling Qwen Model..."
 # Pulling the 7B version (most stable for VMs)
-ollama pull qwen3.5:9b
+ollama pull glm-4.7-flash
 
 echo "[4/4] Installing OpenClaw..."
 # Official Linux install script
