@@ -1,7 +1,7 @@
 # Openclaw
 One single script for openclaw on linux 
 
-# WARNING: Installing AI on your machine is risky. Please make sure to use proper setup. Use a virtual machine and run everything locally. If you're not sure about something, go do some research first! That way it doesn't mess up your own computer. We don't need terminator AI machines running around the internet destroying stuff! Please be safe and configure your config.json file properly! Openclaw is pretty good at walking you through it in it's setup wizard, but you can also just manually change the settings directly in that file. Ok, enough preaching. Go have fun! 
+### WARNING: Installing AI on your machine is risky. Please make sure to use proper setup. Use a virtual machine and run everything locally. If you're not sure about something, go do some research first! That way it doesn't mess up your own computer. We don't need terminator AI machines running around the internet destroying stuff! Please be safe and configure your config.json file properly! Openclaw is pretty good at walking you through it in it's setup wizard, but you can also just manually change the settings directly in that file. Ok, enough preaching. Go have fun! 
 
 # 🦞 OpenClaw-Kali-Automator
 **An automated deployment script for running OpenClaw + Ollama on Kali Linux VMs.**
