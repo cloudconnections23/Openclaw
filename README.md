@@ -16,4 +16,4 @@ This repository contains a streamlined bash script designed to bypass common Doc
 Run the following command in your Kali terminal to download and execute the automator:
 
 ```bash
-curl -sSL [https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)[YOUR_USERNAME]/Openclaw/main/openclaw.sh | bash
+curl -sSL https://raw.githubusercontent.com/cloudconnections23/Openclaw/main/openclaw.sh | bash
