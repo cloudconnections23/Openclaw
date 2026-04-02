@@ -34,12 +34,17 @@ sudo ./openclaw.sh
 ## You may need to run
 ollama launch openclaw
 
-## Then also if you're having problems try one of these fun commands here and follow the prompts. I hope you don't get stuck in a 72 hour openclaw warp loop like I did... it happens to all of us. 
+######## Then also if you're having problems try one of these fun commands here and follow the prompts. I hope you don't get stuck in a 72 hour openclaw warp loop like I did... it happens to all of us. 
 
 openclaw setup
 openclaw gateway --force
 openclaw config
 openclaw --doctor
+
+Here is the official doc link in case you need it. 
+```
+https://docs.ollama.com/integrations/openclaw 
+```
 
 I have the people I follow on youtube, github, openclaw and ollama.com to thank for this inspiration, so thank you! Happy coding :)
 
