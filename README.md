@@ -17,3 +17,16 @@ Run the following command in your Kali terminal to download and execute the auto
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/cloudconnections23/Openclaw/main/openclaw.sh | sudo bash
+
+```
+##  Change directory into Openclaw
+cd Openclaw
+
+##  change the permissions.
+chmod +x openclaw.sh
+
+##  Run the script
+sudo ./openclaw.sh
+
+
+
